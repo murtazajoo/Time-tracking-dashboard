@@ -2,10 +2,8 @@ body{
     font-family: 'Rubik', sans-serif;
 font-weight: 300;
 background-color: hsl(226, 43%, 10%);
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+display:grid;
+    place-content:center;
 }
 
 .active{
